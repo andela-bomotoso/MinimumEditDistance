@@ -19,3 +19,6 @@ possible sources for the minimum cost at each cell.
 minimum cost to the cell being processed is randomly selected. This is  done by importing the random module, and
 ensuring that all possibilities have an equal probability of being selected.
 
+### Output
+For each pair of source and target words, the program displays the following output
+
