@@ -22,5 +22,12 @@ ensuring that all possibilities have an equal probability of being selected.
 ### Output
 For each pair of source and target words, the program displays the following output
 * 4 lines for each of the cost methods (Levenshtein and confusion matrix)
-1. Line 1 shows the ***source*** word
+  1. Line 1 shows the ***source*** word
+  2. Line 2 contains a vertical bar ("|") for each operation (one per character)
+  3. Line 3 shows the ***target*** word
+  4. Line 4 show the operations for each character.  Letter k (for keep) is used to indicate a null substitution (rather than a space).
+* A line of 50 hyphens should be used to separate the pair of words from the next pair
+
+See example output below;
+
 
