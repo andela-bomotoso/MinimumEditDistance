@@ -9,13 +9,13 @@ The input consists of sets of words (one set per line in ***lowercase***) for wh
 
 ### Processing
 
-The processing requiremnents include:
+The processing steps include:
 * The cost of insertions and deletions is 1 in all cases. Substitution costs will be read from input files.
-* For each pair of source and target words, calculate the minimum edit distance (using both Levenshtein
-and confusion matrix costs), and output the cost and backtrace of operations (see below for details).
-* The dynamic programming table must be complete and correct. The backtrace table must capture all
+* For each pair of source and target words, the minimum edit distance is calculated (using both Levenshtein
+and confusion matrix costs), and the cost and backtrace of operations are in the output.
+* The dynamic programming table is complete. The backtrace table  captures all
 possible sources for the minimum cost at each cell.
-* When constructing the backtrace, randomly select any one of the possible cells that provide the
-minimum cost to the cell being processed. This should be done by importing the random module, and
+* When constructing the backtrace, any one of the possible cells that provide the
+minimum cost to the cell being processed is randomly selected. This is  done by importing the random module, and
 ensuring that all possibilities have an equal probability of being selected.
 
