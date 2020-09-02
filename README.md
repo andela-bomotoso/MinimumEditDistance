@@ -30,4 +30,4 @@ For each pair of source and target words, the program displays the following out
 
 See example output below;
 
-
+![Output](output.PNG)
