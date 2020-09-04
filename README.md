@@ -28,6 +28,3 @@ For each pair of source and target words, the program displays the following out
   4. Line 4 show the operations for each character.  Letter k (for keep) is used to indicate a null substitution (rather than a space).
 * A line of 50 hyphens is used to separate the pair of words from the next pair
 
-See example output below;
-
-![Output](output.PNG)
